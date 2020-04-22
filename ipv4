@@ -11666,6 +11666,6 @@ FINAL,direct
 
 [URL Rewrite]
 ^http://(www.)?google.cn https://www.google.com 302
-^https://www.google.com.hk https://www.google.com 302
+^https://(www.)?google.com.hk/search?q= ^https://(www.)?google.com/search?q= 302
 
 # By Moshel @ https://hzy.pw/

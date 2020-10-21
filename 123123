@@ -5,26 +5,24 @@
   "servers": [
     {
       // config id, so the client can detect it's a new server or just changed password
-      "id": "1a2b3c4d",
-      "remark": "Server A",
+      // "id": "1a2b3c4d",
+      "remark": "Eve",
       // SS connect config, same as shadowsocks-libev
-      "server": "example.com",
-      "server_port": 1234,
-      "password": "example",
-      "method": "chacha20-ietf-poly1305",
-      "plugin": "xxx",
-      "plugin_opts": "xxxxx"
+      "server": "2001:da8:207:2112:4f2d:31ae:7926:245a",
+      "server_port": 443,
+      "password": "wormhole",
+      "method": "aes-256-cfb",
     },
     // another server config
     {
-      "id": "1a2b3c4e",
-      "remark": "Server B",
-      "server": "example.com",
-      "server_port": 4321,
-      "password": "example",
-      "method": "chacha20-ietf-poly1305",
-      "plugin": "xxx",
-      "plugin_opts": "xxxxx"
-    }
+      // config id, so the client can detect it's a new server or just changed password
+      // "id": "1a2b3c4d",
+      "remark": "Pi",
+      // SS connect config, same as shadowsocks-libev
+      "server": "2001:da8:207:2112:113e:3444:40cb:f8df",
+      "server_port": 443,
+      "password": "wormhole",
+      "method": "aes-256-cfb",
+    },
   ]
 }

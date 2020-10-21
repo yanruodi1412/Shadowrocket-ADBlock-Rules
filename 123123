@@ -1,2 +1,30 @@
-ss://YWVzLTI1Ni1jZmI6d29ybWhvbGU@[2001:da8:207:2112:4f2d:31ae:7926:245a]:443/#Eve
-ss://YWVzLTI1Ni1jZmI6d29ybWhvbGU@[2001:da8:207:2112:113e:3444:40cb:f8df]:443/#Pi
+{
+  // config file struct version
+  "version": 1,
+  "remark": "Some server",
+  "servers": [
+    {
+      // config id, so the client can detect it's a new server or just changed password
+      "id": "1a2b3c4d",
+      "remark": "Server A",
+      // SS connect config, same as shadowsocks-libev
+      "server": "example.com",
+      "server_port": 1234,
+      "password": "example",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "xxx",
+      "plugin_opts": "xxxxx"
+    },
+    // another server config
+    {
+      "id": "1a2b3c4e",
+      "remark": "Server B",
+      "server": "example.com",
+      "server_port": 4321,
+      "password": "example",
+      "method": "chacha20-ietf-poly1305",
+      "plugin": "xxx",
+      "plugin_opts": "xxxxx"
+    }
+  ]
+}

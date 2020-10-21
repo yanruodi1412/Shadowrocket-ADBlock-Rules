@@ -5,7 +5,7 @@
   "servers": [
     {
       // config id, so the client can detect it's a new server or just changed password
-      // "id": "1a2b3c4d",
+      "id": "1a2b3c4d",
       "remark": "Eve",
       // SS connect config, same as shadowsocks-libev
       "server": "2001:da8:207:2112:4f2d:31ae:7926:245a",
@@ -16,7 +16,7 @@
     // another server config
     {
       // config id, so the client can detect it's a new server or just changed password
-      // "id": "1a2b3c4d",
+      "id": "1a2b3c4d",
       "remark": "Pi",
       // SS connect config, same as shadowsocks-libev
       "server": "2001:da8:207:2112:113e:3444:40cb:f8df",

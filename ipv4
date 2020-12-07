@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,manhuaren.com,PROXY
 DOMAIN-SUFFIX,wikimedia.org,RPOXY
 DOMAIN-SUFFIX,google.com.hk,Reject
 DOMAIN-SUFFIX,gotinder.com,direct
+DOMAIN-SUFFIX,github.com,PROXY
 
 # 手工定义的 Reject 列表
 #待反馈是否误杀

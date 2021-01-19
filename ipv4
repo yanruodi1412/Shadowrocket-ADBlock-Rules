@@ -14,7 +14,6 @@ dns-server = system, 114.114.114.114, 112.124.47.27, 8.8.8.8, 8.8.4.4
 #
 
 #手动添加
-DOMAIN-SUFFIX,manhuaren.com,PROXY
 DOMAIN-SUFFIX,wikimedia.org,RPOXY
 DOMAIN-SUFFIX,google.com.hk,Reject
 DOMAIN-SUFFIX,gotinder.com,direct

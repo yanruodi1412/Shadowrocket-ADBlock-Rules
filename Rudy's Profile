@@ -11,8 +11,8 @@ dns-server = system, 114.114.114.114, 112.124.47.27, 8.8.8.8, 8.8.4.4
 
 #手动添加
 DOMAIN-SUFFIX,wikimedia.org,国外网站
-DOMAIN-SUFFIX,gotinder.com,Direct
 DOMAIN-SUFFIX,github.com,国外网站
+DOMAIN-SUFFIX,telegram.org,国外网站
 DOMAIN-SUFFIX,bnu.edu.cn,国内网站
 
 rules:

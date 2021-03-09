@@ -26,9 +26,17 @@ IP-CIDR,149.154.160.0/20,国外网站
 IP-CIDR,149.154.164.0/22,国外网站
 IP-CIDR,149.154.168.0/22,国外网站
 IP-CIDR,149.154.172.0/22,国外网站
+#Apple
+DOMAIN,testflight.apple.com,DIRECT
+DOMAIN-SUFFIX,appsto.re,DIRECT
+DOMAIN,books.itunes.apple.com,DIRECT
+DOMAIN,hls.itunes.apple.com,DIRECT
+DOMAIN,apps.apple.com,DIRECT
+DOMAIN,itunes.apple.com,DIRECT
+DOMAIN,api-glb-sea.smoot.apple.com,DIRECT
+DOMAIN,lookup-api.apple.com,DIRECT
 
 rules:
-DOMAIN-SUFFIX,bnu.edu.cn,国内网站
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,mtalk.google.com,DIRECT
